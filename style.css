@@ -1,0 +1,143 @@
+/*"*" is selector for everything*/
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("sunset.jpg");
+	background-size:cover;
+}
+
+.container {
+	width: 700px;
+	margin: 24px auto;
+}
+
+#image-round {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.button {
+	text-decoration: none;
+	background-color: blue;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 16px 24px;
+	border-radius: 12px;
+	display: inline-block;
+	transition: all 0.4s ease-in-out;
+	font-family: 'Tilt Neon', sans-serif;
+}
+
+.button:hover {
+	background-color: yellow;
+	color:black;
+}
+
+/*.button-primary {
+	background-color: blue;
+}
+*/
+
+.card-white {
+	background-color: #fff;
+	margin: 24px 0;
+	padding: 24px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+	font-family: 'Tilt Neon', sans-serif;
+}
+
+
+h2 {
+	color: #91cc94;
+	font-family: 'Tilt Neon', sans-serif;
+}
+
+.flexgrid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexcard {
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+.lovethings {
+	width: 480px;
+	height: 320px;
+	border-radius: 10px;
+}
+
+.lovethings:hover {
+	box-shadow: 0px 10px 20px rgba(0, 10, 200, 0.3)
+}
+
+ul {
+	padding: 0;
+	list-style:none;
+}
+
+
+i {
+	font-size: 32px;
+	text-decoration: none;
+	color:lightgrey;
+}
+
+a {
+	padding: 0;
+	list-style:none
+}
+
+.linklist {
+	margin: 0 16px;
+	display: inline-block;
+}
+
+.fa-brands:hover {
+	color:black;
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 500px;
+	}
+
+	.card {
+		background-color: lightcoral;
+	}
+
+	.lovethings {
+		width:360px;
+		height: 240px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+
+	.lovethings {
+		width:240px;
+		height: 160px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
